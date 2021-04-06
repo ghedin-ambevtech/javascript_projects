@@ -1,3 +1,30 @@
 * {
-  background-color: #ffff;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7fafc;
+}
+
+.nav-links,
+li {
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  margin: 2px 0px 2px 5px;
+}
+
+.container {
+  padding: 0 30px;
+}
+
+button {
+  color: #fff;
+  background-color: #884ea0;
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  cursor: pointer;
 }
